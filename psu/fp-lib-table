@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name dka30b-15)(type KiCad)(uri "$(KIPRJMOD)/dka30b-15.pretty")(options "")(descr ""))
+  (lib (name IRM-60-24)(type KiCad)(uri "$(KIPRJMOD)/IRM-60-24.pretty")(options "")(descr ""))
+)

@@ -3,7 +3,7 @@
   (general
     (links 41)
     (no_connects 0)
-    (area 47.424999 23.835 147.575001 184.575001)
+    (area 64.924999 29.924999 225.765 130.075001)
     (thickness 1.6)
     (drawings 4)
     (tracks 118)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber/))
+      (outputdirectory gerber/psu/))
   )
 
   (net 0 "")
@@ -561,10 +561,10 @@
     )
   )
 
-  (gr_line (start 135 180) (end 135 25) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 45 180) (end 135 180) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 45 25) (end 45 180) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 135 25) (end 45 25) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 47.5 184.5) (end 147.5 184.5) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 47.5 24.5) (end 47.5 184.5) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 147.5 24.5) (end 47.5 24.5) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 147.5 184.5) (end 147.5 24.5) (angle 90) (layer Edge.Cuts) (width 0.15))
 
   (segment (start 111.48 28.52) (end 103.86 36.14) (width 1) (layer B.Cu) (net 1))
   (segment (start 103.86 36.14) (end 101.32 36.14) (width 1) (layer B.Cu) (net 1) (tstamp 5AEB2CFF))
