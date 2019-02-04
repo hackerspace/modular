@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name mix-rescue)(type Legacy)(uri ${KIPRJMOD}/mix-rescue.lib)(options "")(descr ""))
+)

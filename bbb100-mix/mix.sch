@@ -1,0 +1,804 @@
+EESchema Schematic File Version 4
+LIBS:mix-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L mix-rescue:POT RV1
+U 1 1 5B2BA60C
+P 1900 3000
+F 0 "RV1" V 1725 3000 50  0000 C CNN
+F 1 "100k Lin" V 1800 3000 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_WirePads" H 1900 3000 50  0001 C CNN
+F 3 "" H 1900 3000 50  0001 C CNN
+	1    1900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:Conn_01x01 J1
+U 1 1 5B2BA694
+P 1450 2700
+F 0 "J1" H 1450 2800 50  0000 C CNN
+F 1 "Conn_01x01" H 1450 2600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 1450 2700 50  0001 C CNN
+F 3 "" H 1450 2700 50  0001 C CNN
+	1    1450 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L mix-rescue:GND #PWR01
+U 1 1 5B2BA91C
+P 1900 3350
+F 0 "#PWR01" H 1900 3100 50  0001 C CNN
+F 1 "GND" H 1900 3200 50  0000 C CNN
+F 2 "" H 1900 3350 50  0001 C CNN
+F 3 "" H 1900 3350 50  0001 C CNN
+	1    1900 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:R R1
+U 1 1 5B2BAD68
+P 2350 3000
+F 0 "R1" V 2430 3000 50  0000 C CNN
+F 1 "100k" V 2350 3000 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2280 3000 50  0001 C CNN
+F 3 "" H 2350 3000 50  0001 C CNN
+	1    2350 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mix-rescue:C C2
+U 1 1 5B2BAE38
+P 4350 3650
+F 0 "C2" V 4300 3750 50  0000 L CNN
+F 1 "47pF" V 4300 3400 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4388 3500 50  0001 C CNN
+F 3 "" H 4350 3650 50  0001 C CNN
+	1    4350 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L mix-rescue:TL072 U1
+U 1 1 5B2BB7EE
+P 4450 4300
+F 0 "U1" H 4450 4500 50  0000 L CNN
+F 1 "TL072" H 4450 4100 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm" H 4450 4300 50  0001 C CNN
+F 3 "" H 4450 4300 50  0001 C CNN
+	1    4450 4300
+	1    0    0    1   
+$EndComp
+$Comp
+L mix-rescue:TL072 U1
+U 2 1 5B2BBA6B
+P 6650 4250
+F 0 "U1" H 6650 4450 50  0000 L CNN
+F 1 "TL072" H 6650 4050 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm" H 6650 4250 50  0001 C CNN
+F 3 "" H 6650 4250 50  0001 C CNN
+	2    6650 4250
+	1    0    0    1   
+$EndComp
+$Comp
+L mix-rescue:R R4
+U 1 1 5B2BBF5C
+P 5050 4300
+F 0 "R4" V 5130 4300 50  0000 C CNN
+F 1 "330" V 5050 4300 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4980 4300 50  0001 C CNN
+F 3 "" H 5050 4300 50  0001 C CNN
+	1    5050 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mix-rescue:R R5
+U 1 1 5B2BC26E
+P 5550 4300
+F 0 "R5" V 5630 4300 50  0000 C CNN
+F 1 "100k" V 5550 4300 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5480 4300 50  0001 C CNN
+F 3 "" H 5550 4300 50  0001 C CNN
+	1    5550 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mix-rescue:R R6
+U 1 1 5B2BC467
+P 6600 3400
+F 0 "R6" V 6680 3400 50  0000 C CNN
+F 1 "100k" V 6600 3400 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6530 3400 50  0001 C CNN
+F 3 "" H 6600 3400 50  0001 C CNN
+	1    6600 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mix-rescue:C C3
+U 1 1 5B2BC530
+P 6600 3650
+F 0 "C3" V 6550 3750 50  0000 L CNN
+F 1 "47pF" V 6550 3400 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 6638 3500 50  0001 C CNN
+F 3 "" H 6600 3650 50  0001 C CNN
+	1    6600 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L mix-rescue:R R7
+U 1 1 5B2BC5ED
+P 7350 4250
+F 0 "R7" V 7430 4250 50  0000 C CNN
+F 1 "330" V 7350 4250 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7280 4250 50  0001 C CNN
+F 3 "" H 7350 4250 50  0001 C CNN
+	1    7350 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mix-rescue:Conn_01x01 J4
+U 1 1 5B2BC8A6
+P 8300 4250
+F 0 "J4" H 8300 4350 50  0000 C CNN
+F 1 "Conn_01x01" H 8300 4150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 8300 4250 50  0001 C CNN
+F 3 "" H 8300 4250 50  0001 C CNN
+	1    8300 4250
+	1    0    0    -1  
+$EndComp
+Text Label 7800 4250 0    60   ~ 0
+OUT
+$Comp
+L mix-rescue:GND #PWR02
+U 1 1 5B2BD29C
+P 6200 4500
+F 0 "#PWR02" H 6200 4250 50  0001 C CNN
+F 1 "GND" H 6200 4350 50  0000 C CNN
+F 2 "" H 6200 4500 50  0001 C CNN
+F 3 "" H 6200 4500 50  0001 C CNN
+	1    6200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:GND #PWR03
+U 1 1 5B2BD2E2
+P 3950 4500
+F 0 "#PWR03" H 3950 4250 50  0001 C CNN
+F 1 "GND" H 3950 4350 50  0000 C CNN
+F 2 "" H 3950 4500 50  0001 C CNN
+F 3 "" H 3950 4500 50  0001 C CNN
+	1    3950 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:+15V #PWR04
+U 1 1 5B2BDAB4
+P 10400 2250
+F 0 "#PWR04" H 10400 2100 50  0001 C CNN
+F 1 "+15V" H 10400 2390 50  0000 C CNN
+F 2 "" H 10400 2250 50  0001 C CNN
+F 3 "" H 10400 2250 50  0001 C CNN
+	1    10400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:Conn_02x05_Odd_Even J5
+U 1 1 5B2BE509
+P 9950 1500
+F 0 "J5" H 10000 1800 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 10000 1200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 9950 1500 50  0001 C CNN
+F 3 "" H 9950 1500 50  0001 C CNN
+	1    9950 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:VDC #PWR05
+U 1 1 5B2BE82E
+P 9150 1650
+F 0 "#PWR05" H 9150 1550 50  0001 C CNN
+F 1 "VDC" H 9150 1900 50  0000 C CNN
+F 2 "" H 9150 1650 50  0001 C CNN
+F 3 "" H 9150 1650 50  0001 C CNN
+	1    9150 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:-VDC #PWR06
+U 1 1 5B2BEC79
+P 9500 1100
+F 0 "#PWR06" H 9500 1000 50  0001 C CNN
+F 1 "-VDC" H 9500 1350 50  0000 C CNN
+F 2 "" H 9500 1100 50  0001 C CNN
+F 3 "" H 9500 1100 50  0001 C CNN
+	1    9500 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:GND #PWR07
+U 1 1 5B2BF267
+P 10550 1700
+F 0 "#PWR07" H 10550 1450 50  0001 C CNN
+F 1 "GND" H 10550 1550 50  0000 C CNN
+F 2 "" H 10550 1700 50  0001 C CNN
+F 3 "" H 10550 1700 50  0001 C CNN
+	1    10550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:+3V3 #PWR08
+U 1 1 5B2BF40B
+P 10800 1500
+F 0 "#PWR08" H 10800 1350 50  0001 C CNN
+F 1 "+3V3" H 10800 1640 50  0000 C CNN
+F 2 "" H 10800 1500 50  0001 C CNN
+F 3 "" H 10800 1500 50  0001 C CNN
+	1    10800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:-15V #PWR18
+U 1 1 5B2BF53B
+P 10400 2850
+F 0 "#PWR18" H 10400 2950 50  0001 C CNN
+F 1 "-15V" H 10400 3000 50  0000 C CNN
+F 2 "" H 10400 2850 50  0001 C CNN
+F 3 "" H 10400 2850 50  0001 C CNN
+	1    10400 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L mix-rescue:+5V #PWR09
+U 1 1 5B2BF60F
+P 9600 1500
+F 0 "#PWR09" H 9600 1350 50  0001 C CNN
+F 1 "+5V" H 9600 1640 50  0000 C CNN
+F 2 "" H 9600 1500 50  0001 C CNN
+F 3 "" H 9600 1500 50  0001 C CNN
+	1    9600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:POT RV2
+U 1 1 5B2C12B1
+P 1900 4200
+F 0 "RV2" V 1725 4200 50  0000 C CNN
+F 1 "100k Lin" V 1800 4200 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_WirePads" H 1900 4200 50  0001 C CNN
+F 3 "" H 1900 4200 50  0001 C CNN
+	1    1900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:Conn_01x01 J2
+U 1 1 5B2C12B7
+P 1450 3900
+F 0 "J2" H 1450 4000 50  0000 C CNN
+F 1 "Conn_01x01" H 1450 3800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 1450 3900 50  0001 C CNN
+F 3 "" H 1450 3900 50  0001 C CNN
+	1    1450 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L mix-rescue:GND #PWR010
+U 1 1 5B2C12C0
+P 1900 4550
+F 0 "#PWR010" H 1900 4300 50  0001 C CNN
+F 1 "GND" H 1900 4400 50  0000 C CNN
+F 2 "" H 1900 4550 50  0001 C CNN
+F 3 "" H 1900 4550 50  0001 C CNN
+	1    1900 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:R R2
+U 1 1 5B2C12C6
+P 2350 4200
+F 0 "R2" V 2430 4200 50  0000 C CNN
+F 1 "100k" V 2350 4200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2280 4200 50  0001 C CNN
+F 3 "" H 2350 4200 50  0001 C CNN
+	1    2350 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mix-rescue:POT RV3
+U 1 1 5B2C157A
+P 1900 5350
+F 0 "RV3" V 1725 5350 50  0000 C CNN
+F 1 "100k Lin" V 1800 5350 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_WirePads" H 1900 5350 50  0001 C CNN
+F 3 "" H 1900 5350 50  0001 C CNN
+	1    1900 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:Conn_01x01 J3
+U 1 1 5B2C1580
+P 1450 5050
+F 0 "J3" H 1450 5150 50  0000 C CNN
+F 1 "Conn_01x01" H 1450 4950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 1450 5050 50  0001 C CNN
+F 3 "" H 1450 5050 50  0001 C CNN
+	1    1450 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L mix-rescue:GND #PWR011
+U 1 1 5B2C1589
+P 1900 5700
+F 0 "#PWR011" H 1900 5450 50  0001 C CNN
+F 1 "GND" H 1900 5550 50  0000 C CNN
+F 2 "" H 1900 5700 50  0001 C CNN
+F 3 "" H 1900 5700 50  0001 C CNN
+	1    1900 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:R R3
+U 1 1 5B2C158F
+P 2350 5350
+F 0 "R3" V 2430 5350 50  0000 C CNN
+F 1 "100k" V 2350 5350 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2280 5350 50  0001 C CNN
+F 3 "" H 2350 5350 50  0001 C CNN
+	1    2350 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mix-rescue:C C1
+U 1 1 5B2C233E
+P 3300 4200
+F 0 "C1" H 3325 4300 50  0000 L CNN
+F 1 "470n" H 3325 4100 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3338 4050 50  0001 C CNN
+F 3 "" H 3300 4200 50  0001 C CNN
+	1    3300 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L mix-rescue:POT RV4
+U 1 1 5B2C3020
+P 4350 2950
+F 0 "RV4" V 4175 2950 50  0000 C CNN
+F 1 "100k Lin" V 4250 2950 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_WirePads" H 4350 2950 50  0001 C CNN
+F 3 "" H 4350 2950 50  0001 C CNN
+	1    4350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:VDC #PWR012
+U 1 1 5B2C38D6
+P 9350 2250
+F 0 "#PWR012" H 9350 2150 50  0001 C CNN
+F 1 "VDC" H 9350 2500 50  0000 C CNN
+F 2 "" H 9350 2250 50  0001 C CNN
+F 3 "" H 9350 2250 50  0001 C CNN
+	1    9350 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mix-rescue:-VDC #PWR013
+U 1 1 5B2C3923
+P 9350 2850
+F 0 "#PWR013" H 9350 2750 50  0001 C CNN
+F 1 "-VDC" H 9350 3100 50  0000 C CNN
+F 2 "" H 9350 2850 50  0001 C CNN
+F 3 "" H 9350 2850 50  0001 C CNN
+	1    9350 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mix-rescue:GND #PWR014
+U 1 1 5B2C3D7E
+P 9300 2550
+F 0 "#PWR014" H 9300 2300 50  0001 C CNN
+F 1 "GND" H 9300 2400 50  0000 C CNN
+F 2 "" H 9300 2550 50  0001 C CNN
+F 3 "" H 9300 2550 50  0001 C CNN
+	1    9300 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L mix-rescue:C C6
+U 1 1 5B2C469F
+P 10200 2400
+F 0 "C6" H 10225 2500 50  0000 L CNN
+F 1 "100n" H 10225 2300 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 10238 2250 50  0001 C CNN
+F 3 "" H 10200 2400 50  0001 C CNN
+	1    10200 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1650 2700 1900 2700
+Wire Wire Line
+	1900 2700 1900 2850
+Wire Wire Line
+	1900 3150 1900 3350
+Wire Wire Line
+	2050 3000 2200 3000
+Wire Wire Line
+	4750 4300 4850 4300
+Wire Wire Line
+	4500 3650 4850 3650
+Wire Wire Line
+	4850 3650 4850 4300
+Connection ~ 4850 4300
+Wire Wire Line
+	3450 4200 3950 4200
+Wire Wire Line
+	3950 3400 3950 3650
+Wire Wire Line
+	3950 3650 4200 3650
+Connection ~ 3950 4200
+Wire Wire Line
+	3950 3400 4350 3400
+Connection ~ 3950 3650
+Wire Wire Line
+	4500 3400 5250 3400
+Wire Wire Line
+	5250 3400 5250 4300
+Wire Wire Line
+	5200 4300 5250 4300
+Connection ~ 5250 4300
+Wire Wire Line
+	5700 4300 6050 4300
+Wire Wire Line
+	6050 4300 6050 4150
+Wire Wire Line
+	6050 4150 6200 4150
+Wire Wire Line
+	6200 4150 6200 3650
+Connection ~ 6200 4150
+Wire Wire Line
+	6200 3400 6450 3400
+Wire Wire Line
+	6200 3650 6450 3650
+Connection ~ 6200 3650
+Wire Wire Line
+	6750 3650 7100 3650
+Wire Wire Line
+	7100 3650 7100 4250
+Wire Wire Line
+	6950 4250 7100 4250
+Connection ~ 7100 4250
+Wire Wire Line
+	7500 4250 7600 4250
+Wire Wire Line
+	7600 4250 7600 3400
+Wire Wire Line
+	7600 3400 6750 3400
+Connection ~ 7600 4250
+Wire Wire Line
+	6350 4350 6200 4350
+Wire Wire Line
+	6200 4350 6200 4500
+Wire Wire Line
+	4150 4400 3950 4400
+Wire Wire Line
+	3950 4400 3950 4500
+Wire Wire Line
+	9500 1300 9750 1300
+Wire Wire Line
+	9500 1300 9500 1100
+Connection ~ 9750 1300
+Wire Wire Line
+	9150 1700 9750 1700
+Wire Wire Line
+	9150 1700 9150 1650
+Connection ~ 9750 1700
+Wire Wire Line
+	9750 1400 10250 1400
+Wire Wire Line
+	10550 1600 10550 1700
+Wire Wire Line
+	10350 1400 10350 1600
+Connection ~ 10350 1600
+Connection ~ 10250 1400
+Wire Wire Line
+	10550 1600 10350 1600
+Wire Wire Line
+	10350 1600 10250 1600
+Connection ~ 10250 1600
+Wire Wire Line
+	10250 1500 10800 1500
+Wire Wire Line
+	9750 1500 9600 1500
+Wire Wire Line
+	1650 3900 1900 3900
+Wire Wire Line
+	1900 3900 1900 4050
+Wire Wire Line
+	1900 4350 1900 4550
+Wire Wire Line
+	2050 4200 2200 4200
+Wire Wire Line
+	1650 5050 1900 5050
+Wire Wire Line
+	1900 5050 1900 5200
+Wire Wire Line
+	1900 5500 1900 5700
+Wire Wire Line
+	2050 5350 2200 5350
+Wire Wire Line
+	2500 3000 2800 3000
+Wire Wire Line
+	2800 3000 2800 4200
+Wire Wire Line
+	2500 4200 2800 4200
+Wire Wire Line
+	2800 5350 2500 5350
+Connection ~ 2800 4200
+Wire Wire Line
+	9350 2250 9500 2250
+Connection ~ 9800 2250
+Wire Wire Line
+	9300 2550 9500 2550
+Connection ~ 10200 2250
+Connection ~ 9800 2550
+$Comp
+L mix-rescue:C C7
+U 1 1 5B2C55A1
+P 10200 2700
+F 0 "C7" H 10225 2800 50  0000 L CNN
+F 1 "100n" H 10225 2600 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 10238 2550 50  0001 C CNN
+F 3 "" H 10200 2700 50  0001 C CNN
+	1    10200 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9350 2850 9500 2850
+Connection ~ 9800 2850
+Connection ~ 10200 2850
+$Comp
+L mix-rescue:+15V #PWR015
+U 1 1 5B2C7B64
+P 6550 4550
+F 0 "#PWR015" H 6550 4400 50  0001 C CNN
+F 1 "+15V" H 6550 4690 50  0000 C CNN
+F 2 "" H 6550 4550 50  0001 C CNN
+F 3 "" H 6550 4550 50  0001 C CNN
+	1    6550 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L mix-rescue:-15V #PWR9
+U 1 1 5B2C7BBD
+P 6550 3950
+F 0 "#PWR9" H 6550 4050 50  0001 C CNN
+F 1 "-15V" H 6550 4100 50  0000 C CNN
+F 2 "" H 6550 3950 50  0001 C CNN
+F 3 "" H 6550 3950 50  0001 C CNN
+	1    6550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:-15V #PWR6
+U 1 1 5B2C7E72
+P 4350 4000
+F 0 "#PWR6" H 4350 4100 50  0001 C CNN
+F 1 "-15V" H 4350 4150 50  0000 C CNN
+F 2 "" H 4350 4000 50  0001 C CNN
+F 3 "" H 4350 4000 50  0001 C CNN
+	1    4350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:+15V #PWR016
+U 1 1 5B2C81BD
+P 4350 4600
+F 0 "#PWR016" H 4350 4450 50  0001 C CNN
+F 1 "+15V" H 4350 4740 50  0000 C CNN
+F 2 "" H 4350 4600 50  0001 C CNN
+F 3 "" H 4350 4600 50  0001 C CNN
+	1    4350 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 3400 4350 3100
+Wire Wire Line
+	4500 2950 4500 3400
+Text Notes 4400 2700 0    60   ~ 0
+master gain
+$Comp
+L mix-rescue:CP1 C4
+U 1 1 5B2CAC56
+P 9800 2400
+F 0 "C4" H 9825 2500 50  0000 L CNN
+F 1 "10u" H 9825 2300 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm" H 9800 2400 50  0001 C CNN
+F 3 "" H 9800 2400 50  0001 C CNN
+	1    9800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:CP1 C5
+U 1 1 5B2CAD53
+P 9800 2700
+F 0 "C5" H 9825 2800 50  0000 L CNN
+F 1 "10u" H 9825 2600 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.00mm" H 9800 2700 50  0001 C CNN
+F 3 "" H 9800 2700 50  0001 C CNN
+	1    9800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:PWR_FLAG #FLG017
+U 1 1 5B2CDE84
+P 9500 2250
+F 0 "#FLG017" H 9500 2325 50  0001 C CNN
+F 1 "PWR_FLAG" H 9500 2400 50  0000 C CNN
+F 2 "" H 9500 2250 50  0001 C CNN
+F 3 "" H 9500 2250 50  0001 C CNN
+	1    9500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:PWR_FLAG #FLG018
+U 1 1 5B2CDF36
+P 9500 2850
+F 0 "#FLG018" H 9500 2925 50  0001 C CNN
+F 1 "PWR_FLAG" H 9500 3000 50  0000 C CNN
+F 2 "" H 9500 2850 50  0001 C CNN
+F 3 "" H 9500 2850 50  0001 C CNN
+	1    9500 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 2250 9800 2250
+Connection ~ 9500 2250
+Wire Wire Line
+	9500 2850 9800 2850
+Connection ~ 9500 2850
+$Comp
+L mix-rescue:PWR_FLAG #FLG019
+U 1 1 5B2CEF85
+P 9500 2550
+F 0 "#FLG019" H 9500 2625 50  0001 C CNN
+F 1 "PWR_FLAG" H 9500 2700 50  0000 C CNN
+F 2 "" H 9500 2550 50  0001 C CNN
+F 3 "" H 9500 2550 50  0001 C CNN
+	1    9500 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 2550 9800 2550
+Connection ~ 9500 2550
+$Comp
+L mix-rescue:PWR_FLAG #FLG020
+U 1 1 5B2CF307
+P 9600 1500
+F 0 "#FLG020" H 9600 1575 50  0001 C CNN
+F 1 "PWR_FLAG" H 9600 1650 50  0000 C CNN
+F 2 "" H 9600 1500 50  0001 C CNN
+F 3 "" H 9600 1500 50  0001 C CNN
+	1    9600 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L mix-rescue:PWR_FLAG #FLG021
+U 1 1 5B2CF35D
+P 10800 1500
+F 0 "#FLG021" H 10800 1575 50  0001 C CNN
+F 1 "PWR_FLAG" H 10800 1650 50  0000 C CNN
+F 2 "" H 10800 1500 50  0001 C CNN
+F 3 "" H 10800 1500 50  0001 C CNN
+	1    10800 1500
+	-1   0    0    1   
+$EndComp
+NoConn ~ 4350 2800
+$Comp
+L mix-rescue:POT RV5
+U 1 1 5B2D0455
+P 1900 6500
+F 0 "RV5" V 1725 6500 50  0000 C CNN
+F 1 "100k Lin" V 1800 6500 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_WirePads" H 1900 6500 50  0001 C CNN
+F 3 "" H 1900 6500 50  0001 C CNN
+	1    1900 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:Conn_01x01 J6
+U 1 1 5B2D045B
+P 1450 6200
+F 0 "J6" H 1450 6300 50  0000 C CNN
+F 1 "Conn_01x01" H 1450 6100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 1450 6200 50  0001 C CNN
+F 3 "" H 1450 6200 50  0001 C CNN
+	1    1450 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L mix-rescue:GND #PWR022
+U 1 1 5B2D0461
+P 1900 6850
+F 0 "#PWR022" H 1900 6600 50  0001 C CNN
+F 1 "GND" H 1900 6700 50  0000 C CNN
+F 2 "" H 1900 6850 50  0001 C CNN
+F 3 "" H 1900 6850 50  0001 C CNN
+	1    1900 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L mix-rescue:R R8
+U 1 1 5B2D0467
+P 2350 6500
+F 0 "R8" V 2430 6500 50  0000 C CNN
+F 1 "100k" V 2350 6500 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2280 6500 50  0001 C CNN
+F 3 "" H 2350 6500 50  0001 C CNN
+	1    2350 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 6200 1900 6200
+Wire Wire Line
+	1900 6200 1900 6350
+Wire Wire Line
+	1900 6650 1900 6850
+Wire Wire Line
+	2050 6500 2200 6500
+Wire Wire Line
+	2800 6500 2500 6500
+Connection ~ 2800 5350
+Text Notes 550  1150 0    414  ~ 83
+BBB100-MIX
+Text Notes 550  1450 0    118  ~ 24
+4 channel non-inverting mixer with master gain
+Wire Wire Line
+	4850 4300 4900 4300
+Wire Wire Line
+	3950 4200 4150 4200
+Wire Wire Line
+	3950 3650 3950 4200
+Wire Wire Line
+	5250 4300 5400 4300
+Wire Wire Line
+	6200 4150 6350 4150
+Wire Wire Line
+	6200 3650 6200 3400
+Wire Wire Line
+	7100 4250 7200 4250
+Wire Wire Line
+	7600 4250 8100 4250
+Wire Wire Line
+	9750 1300 10250 1300
+Wire Wire Line
+	9750 1700 10250 1700
+Wire Wire Line
+	10250 1400 10350 1400
+Wire Wire Line
+	10250 1600 9750 1600
+Wire Wire Line
+	2800 4200 2800 5350
+Wire Wire Line
+	2800 4200 3150 4200
+Wire Wire Line
+	9800 2250 10200 2250
+Wire Wire Line
+	10200 2250 10400 2250
+Wire Wire Line
+	9800 2550 10200 2550
+Wire Wire Line
+	9800 2850 10200 2850
+Wire Wire Line
+	10200 2850 10400 2850
+Wire Wire Line
+	2800 5350 2800 6500
+$EndSCHEMATC
