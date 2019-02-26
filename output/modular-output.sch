@@ -80,17 +80,6 @@ F 3 "" H 2050 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Audio-Jack-3 J4
-U 1 1 5C071850
-P 6800 3500
-F 0 "J4" H 6750 3675 50  0000 C CNN
-F 1 "Audio-Jack-3" H 6900 3430 50  0000 C CNN
-F 2 "" H 7050 3600 50  0001 C CNN
-F 3 "" H 7050 3600 50  0001 C CNN
-	1    6800 3500
-	-1   0    0    -1  
-$EndComp
-$Comp
 L TL072 U1
 U 2 1 5C071AE9
 P 5150 4550
@@ -321,30 +310,8 @@ F 3 "" H 3100 5100 50  0001 C CNN
 	1    3100 5100
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR012
-U 1 1 5C074CC4
-P 6200 5100
-F 0 "#PWR012" H 6200 4850 50  0001 C CNN
-F 1 "GND" H 6200 4950 50  0000 C CNN
-F 2 "" H 6200 5100 50  0001 C CNN
-F 3 "" H 6200 5100 50  0001 C CNN
-	1    6200 5100
-	1    0    0    -1  
-$EndComp
 Text Notes 6900 5200 0    60   ~ 0
 to headphone amp submodule
-$Comp
-L GND #PWR013
-U 1 1 5C074F87
-P 7000 3600
-F 0 "#PWR013" H 7000 3350 50  0001 C CNN
-F 1 "GND" H 7000 3450 50  0000 C CNN
-F 2 "" H 7000 3600 50  0001 C CNN
-F 3 "" H 7000 3600 50  0001 C CNN
-	1    7000 3600
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2350 5000
 NoConn ~ 2850 5000
 $Comp
@@ -414,39 +381,6 @@ F 3 "" H 2500 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x05 J3
-U 1 1 5C076332
-P 6750 5200
-F 0 "J3" H 6750 5500 50  0000 C CNN
-F 1 "Conn_01x05" H 6750 4900 50  0000 C CNN
-F 2 "" H 6750 5200 50  0001 C CNN
-F 3 "" H 6750 5200 50  0001 C CNN
-	1    6750 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L -VDC #PWR020
-U 1 1 5C076385
-P 6550 5400
-F 0 "#PWR020" H 6550 5300 50  0001 C CNN
-F 1 "-VDC" H 6550 5650 50  0000 C CNN
-F 2 "" H 6550 5400 50  0001 C CNN
-F 3 "" H 6550 5400 50  0001 C CNN
-	1    6550 5400
-	-1   0    0    1   
-$EndComp
-$Comp
-L +VDC #PWR021
-U 1 1 5C0763C9
-P 6350 5300
-F 0 "#PWR021" H 6350 5200 50  0001 C CNN
-F 1 "+VDC" H 6350 5550 50  0000 C CNN
-F 2 "" H 6350 5300 50  0001 C CNN
-F 3 "" H 6350 5300 50  0001 C CNN
-	1    6350 5300
-	-1   0    0    1   
-$EndComp
-$Comp
 L C C3
 U 1 1 5C5D60A8
 P 2300 3000
@@ -512,12 +446,6 @@ Wire Wire Line
 	5450 1900 5150 1900
 Connection ~ 5450 2100
 Wire Wire Line
-	6350 5200 6550 5200
-Wire Wire Line
-	6550 5100 6200 5100
-Wire Wire Line
-	6350 5300 6550 5300
-Wire Wire Line
 	4450 3250 4350 3250
 Wire Wire Line
 	2150 3000 2150 3300
@@ -563,7 +491,7 @@ $EndComp
 Wire Wire Line
 	3350 3150 3650 3150
 Wire Wire Line
-	3650 3650 3350 3650
+	3350 3650 3650 3650
 $Comp
 L D_Zener D2
 U 1 1 5C5D6E7A
@@ -657,11 +585,9 @@ F 3 "" H 6150 3400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 4550 6600 4550
+	5450 4550 6400 4550
 Wire Wire Line
-	6600 4550 6600 3500
-Wire Wire Line
-	6600 3400 6350 3400
+	6350 3400 7950 3400
 Wire Wire Line
 	5950 3300 5950 2800
 Wire Wire Line
@@ -669,14 +595,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 3500 5950 4550
 Connection ~ 5950 4550
-Wire Wire Line
-	6350 5200 6350 4550
-Connection ~ 6350 4550
-Wire Wire Line
-	6550 5000 6450 5000
-Wire Wire Line
-	6450 5000 6450 3400
-Connection ~ 6450 3400
 Connection ~ 5450 4550
 Connection ~ 4850 4450
 Connection ~ 4850 2700
@@ -685,4 +603,52 @@ Wire Wire Line
 	5150 2100 4850 2100
 Wire Wire Line
 	5150 3850 4850 3850
+$Comp
+L Conn_02x03_Odd_Even J?
+U 1 1 5C61AB41
+P 6800 3500
+F 0 "J?" H 6850 3700 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 6850 3300 50  0000 C CNN
+F 2 "" H 6800 3500 50  0001 C CNN
+F 3 "" H 6800 3500 50  0001 C CNN
+	1    6800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_02x03_Odd_Even J?
+U 1 1 5C61AC08
+P 7650 3500
+F 0 "J?" H 7700 3700 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 7700 3300 50  0000 C CNN
+F 2 "" H 7650 3500 50  0001 C CNN
+F 3 "" H 7650 3500 50  0001 C CNN
+	1    7650 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3500 7950 3500
+Wire Wire Line
+	6400 4550 6400 3500
+Connection ~ 6600 3400
+Connection ~ 6600 3500
+Wire Wire Line
+	6600 3600 8200 3600
+Connection ~ 7100 3400
+Connection ~ 7450 3400
+Connection ~ 7450 3500
+Connection ~ 7100 3500
+Connection ~ 7100 3600
+Connection ~ 7450 3600
+$Comp
+L GND #PWR?
+U 1 1 5C61AFE2
+P 8200 3600
+F 0 "#PWR?" H 8200 3350 50  0001 C CNN
+F 1 "GND" H 8200 3450 50  0000 C CNN
+F 2 "" H 8200 3600 50  0001 C CNN
+F 3 "" H 8200 3600 50  0001 C CNN
+	1    8200 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 7950 3600
 $EndSCHEMATC
